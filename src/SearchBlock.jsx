@@ -1,12 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import style from "./SearchBlock.module.scss"
 
 export default function SearchBlock() {
   return (
-    <View>
-      <Text>SearchBlock</Text>
-    </View>
+    <div className={style.Search_block} >
+       
+    </div>
   )
 }
-
-const styles = StyleSheet.create({})
