@@ -1,5 +1,40 @@
 .Search_block{
-    background-color: #0E0E0E;
+    background: #0E0E0E;
     width: 100vw;
-    
+    color: aliceblue;
+    padding: clamp(4px,4%,12%) clamp(10px,20vw,28%);
+    display: flex;
+    gap:clamp(3px,5vw,15%);
+    font-size: 16px;
+    .mark{
+        width: 10vw;
+        background: #0E0E0E;
+        color: #fff;
+        border: none;
+        border-bottom:  1px solid #fff;
+        outline: none;
+        padding-bottom: 11px;
+        cursor: pointer;
+
+    }
+    .model{
+        width: 10vw;
+        background: #0E0E0E;
+        color: #fff;
+        opacity: 0.6;
+        border: none;
+        border-bottom:  1px solid #fff;
+        outline: none;
+        padding-bottom: 11px;
+        cursor: pointer;
+    }
+    .btn{
+        background: linear-gradient(90deg, #E52D27 0%, #B31217 100%);
+        padding: clamp(1px,3px,4px) clamp(1px,2px,3px);
+        border-radius: 34px;
+        width: 13vw;
+        text-align: center;
+        cursor: pointer;
+        
+    }
 }
