@@ -7,7 +7,7 @@
     gap:clamp(3px,5vw,15%);
     font-size: 16px;
     .mark{
-        width: 10vw;
+        width: 15vw;
         background: #0E0E0E;
         color: #fff;
         border: none;
@@ -18,7 +18,7 @@
 
     }
     .model{
-        width: 10vw;
+        width: 15vw;
         background: #0E0E0E;
         color: #fff;
         opacity: 0.6;
@@ -32,7 +32,9 @@
         background: linear-gradient(90deg, #E52D27 0%, #B31217 100%);
         padding: clamp(1px,3px,4px) clamp(1px,2px,3px);
         border-radius: 34px;
-        width: 13vw;
+        width: 17vw;
+        min-width: 140px;
+        max-width: 400px;
         text-align: center;
         cursor: pointer;
         
