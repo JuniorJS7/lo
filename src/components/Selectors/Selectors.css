@@ -1,0 +1,38 @@
+.selCont {
+  background-color: #0e0e0eff;
+  padding: 50px;
+}
+
+.selContCenter {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.selContCenter button {
+  height: 38px;
+  width: 217px;
+  left: 693px;
+  top: 0px;
+  border-radius: 34px;
+  padding: 7px 32px 7px 32px;
+  color: white;
+  background-color: #DF2A25FF;
+  cursor: pointer;
+}
+
+.selectors {
+  width: 181px;
+  background-color: #0e0e0eff;
+  border: none;
+  border-bottom: 1px solid #686868FF;
+  color: #ffffff;
+  margin: 0 10px;
+  text-align: left;
+  padding-bottom: 10px;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
