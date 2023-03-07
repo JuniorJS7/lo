@@ -1,0 +1,63 @@
+.cont {
+  width: 100%;
+  height: 663px;
+  background-image: url("../firstCont/img/Union.png");
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: absolute;
+  font-family: "Gamestation";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 100%;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  left: 25px;
+}
+
+.text span {
+  color: #f52626ff;
+}
+
+.text2 {
+  position: absolute;
+  width: 518px;
+  height: 84px;
+  bottom: -35px;
+  left: 170px;
+}
+
+.text2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130.02%;
+  /* or 21px */
+
+  text-align: justify;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text2 button {
+  padding: 10px;
+  /* width: 267px; */
+  /* height: 19px; */
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #f52626;
+  border: 1px solid #f52626;
+  background-color: #222222FF;
+  cursor: pointer;
+}
