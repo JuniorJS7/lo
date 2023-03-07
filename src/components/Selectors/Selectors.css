@@ -1,5 +1,5 @@
 .selCont {
-  background-color: #0e0e0eff;
+  background-color: #222222FF;
   padding: 50px;
 }
 
@@ -23,7 +23,7 @@
 
 .selectors {
   width: 181px;
-  background-color: #0e0e0eff;
+  background-color: #222222FF;
   border: none;
   border-bottom: 1px solid #686868FF;
   color: #ffffff;
