@@ -56,8 +56,8 @@
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
-  color: #f52626;
+  color: white;
   border: 1px solid #f52626;
-  background-color: #222222FF;
+  background-color: #f52626;
   cursor: pointer;
 }

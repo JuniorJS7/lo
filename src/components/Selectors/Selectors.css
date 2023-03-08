@@ -1,10 +1,10 @@
 .selCont {
-  background-color: #222222FF;
+  background-color: #0E0E0EFF;
   padding: 50px;
 }
 
 .selContCenter {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
@@ -19,11 +19,12 @@
   color: white;
   background-color: #DF2A25FF;
   cursor: pointer;
+  border-color: #DF2A25FF;
 }
 
 .selectors {
   width: 181px;
-  background-color: #222222FF;
+  background-color: #0E0E0EFF;
   border: none;
   border-bottom: 1px solid #686868FF;
   color: #ffffff;

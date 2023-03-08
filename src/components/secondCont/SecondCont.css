@@ -1,0 +1,71 @@
+.Secondcont {
+  background-color: #0e0e0eff;
+  width: 100%;
+}
+
+.text-cont {
+  width: 50%;
+  text-align: left;
+  margin-top: 80px;
+}
+
+.text-cont button {
+  background-color: transparent;
+  border: 1px solid #e52d27;
+  color: white;
+  border-radius: 43px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 19px;
+  margin: 10px;
+}
+
+.text-cont-title {
+  font-family: "Gamestation";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #e52d27 0%, #b31217 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-cont-p {
+  font-family: "Gamestation";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.photo-cont {
+    background-image: url('../secondCont/img/Group 8.png');
+    background-repeat: no-repeat;
+    height:659.86px;
+    width: 40%;
+}
+
+.red-cont {
+    background-image: url('../secondCont/img/red.png');
+    background-repeat: no-repeat;
+    width: 242px;
+    height: 242px;
+    left: 680px;
+top: 1115px;
+    position: absolute;
+    background: #F52626;
+    filter: blur(275px);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly
+
+}
