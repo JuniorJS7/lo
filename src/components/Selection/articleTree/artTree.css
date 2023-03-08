@@ -1,4 +1,64 @@
-.artTree{
-    height: 300px;
-    border: solid 1px;
+.artTree {
+   max-width: 100%;
+   margin: -32px 0px 0px 0px;
+}
+.artTree__container {
+   background-image: url(/src/components/Selection/articleTree/img/article_bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   flex-basis: auto;
+   padding: 0px 0px 0px 100px;
+}
+
+.artTree__subtitle {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 120%;
+   color: #e52d27;
+   padding: 90px 0px 0px 0px;
+}
+
+.artTree__title {
+   font-weight: 400;
+   font-size: 42px;
+   line-height: 120%;
+   color: #ffffff;
+   padding: 40px 0px 60px 0px;
+   width: 500px;
+}
+
+.artTree__button {
+   width: 217px;
+   height: 38px;
+   color: white;
+   background: linear-gradient(90deg, #e52d27 0%, #b31217 100%);
+   border-radius: 34px;
+}
+
+.artTree__list {
+   width: 500px;
+   padding: 0px 0px 270px 0px;
+   gap: 80px;
+}
+
+.artTree__list-box {
+   display: flex;
+   gap: 100px;
+}
+
+.artTree__img {
+   border-radius: 50%;
+   box-sizing: border-box;
+   width: 21.05px;
+   height: 21.05px;
+   border: 3px dashed #ffffff;
+   margin: 50px 0px 15px 0px;
+}
+
+.artTree__text {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 120%;
+   color: #ffffff;
+   width: 315px;
 }
