@@ -37,6 +37,17 @@ function Selectors(props) {
           <option value="">Volvo</option>
           <option value="">Alfa Romeo</option>
         </select>
+        <select className="four-select selectors">
+          <option value="" disabled selected>
+            Комплектация
+          </option>
+          <option value="">Acura</option>
+          <option value="">Chrysler</option>
+          <option value="">HAVAL</option>
+          <option value="">Renault</option>
+          <option value="">Volvo</option>
+          <option value="">Alfa Romeo</option>
+        </select>
         <button>Поиск по котологу</button>
       </div>
     </div>
