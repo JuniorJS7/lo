@@ -4,7 +4,7 @@ import "../NavItems/NavItems.css";
 function Li(props) {
   return (
     <li>
-      <a href="#">{props.value}</a>
+      <a href='{}'>{props.value}</a>
     </li>
   );
 }

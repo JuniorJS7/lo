@@ -1,5 +1,5 @@
 
-import '../SelectMenu/SelectMenu.css'
+import './SelectMenu.css'
 
 function SelectMenu(props) {
     return (
