@@ -10,6 +10,7 @@ import photo2 from "../Images/1486349556-loupe_80493.ico";
 import "../NavBar/navBar.css";
 
 export default function NavBar() {
+  
   return (
     <div className='MenuNav'>
     <div className="navBar">
