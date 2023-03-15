@@ -29,6 +29,7 @@ z-index: 1;
 .Modal__content.active{
     transform: scale(1)
 }
+
 .btn__X{
     display: flex;
     justify-content: flex-end;
@@ -90,4 +91,22 @@ width: 355px;
 }
 .butt_psw:hover{
     background-color: #E52D27;
+}
+@media (max-width:375px) {
+    .Modal__content.active{
+        width: 290px;
+    }
+    .My__input{
+        width: 170px;
+    }
+    .kode__butt{
+        width: 170px;
+    }
+    .butt_psw{
+        width: 170px;
+    }
+    .p__sms{
+        width: 170px;
+    }
+
 }
