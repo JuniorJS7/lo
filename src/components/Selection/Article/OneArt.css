@@ -1,63 +1,84 @@
-.cont {
+.OneArt {
+   background: #222222;
+   padding:120px 0px;
+}
+@media(max-width:790px){
+  .OneArt {
+    padding-bottom: 0;
+  }
+}
+
+.OneArt__container {
+  max-width: 1400px;
+  margin:0px auto;
+  padding:0px 15px;
+  display: flex;
+}
+
+@media(max-width:790px){
+  .OneArt__container {
+    flex-direction: column;
+  }
+}
+@media(max-width:790px){
+.OneArt__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+.OneArt__img{
+  flex: 0 0 50%;
+
+}
+
+.OneArt__img img{
+  height: 100%;
   width: 100%;
-  height: 663px;
-  background-image: url("../Article/img/Union.png");
-  background-repeat: no-repeat;
+}
+.OneArt__title {
+   font-family: 'Gamestation';
+   font-weight: 400;
+   font-size:79px;
+   line-height: 100%;
+   text-align: left;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: white;
+   margin:0px;
+   margin-bottom: 50px;
 }
 
-.text {
-  position: absolute;
-  font-family: "Gamestation";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 79px;
-  line-height: 100%;
-  text-align: left;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: white;
-  left: 25px;
+@media(max-width:1600px){
+  .OneArt__title{
+    font-size: calc(29px + (79 - 29) * ((100vw - 320px) / (1600 - 320)));
+  }
+}
+.OneArt__title span {
+   color: #f52626ff;
+}
+.OneArt__descr {
+   max-width: 518px;
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 130.02%;
+   text-align: justify;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.8);
+   margin-bottom: 35px;
 }
 
-.text span {
-  color: #f52626ff;
-}
-
-.text2 {
-  position: absolute;
-  width: 518px;
-  height: 84px;
-  bottom: -35px;
-  left: 170px;
-}
-
-.text2 p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 130.02%;
-  /* or 21px */
-
-  text-align: justify;
-  text-transform: uppercase;
-
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.text2 button {
-  padding: 10px;
-  /* width: 267px; */
-  /* height: 19px; */
-  border-radius: 15px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-transform: uppercase;
-  color: white;
-  border: 1px solid #f52626;
-  background-color: #f52626;
-  cursor: pointer;
+.OneArt__button {
+   padding: 10px;
+   border-radius: 15px;
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: white;
+   border: 1px solid #f52626;
+   background-color: #f52626;
+   cursor: pointer;
 }
