@@ -9,13 +9,13 @@
     padding: 10px;
     text-align: center;
   }
-  
+
   .navWidth {
     display: flex;
     width: 1376px;
     margin:0 auto ;
   }
-  
+
   .btn {
     margin-left: 25px;
     height: 19px;
@@ -36,8 +36,8 @@
   .btn:hover{
     background-color:#b31217;
   }
-  
-  img {
+
+  .navBar img {
     position: relative;
     height: 24px;
     width: 26px;
@@ -45,7 +45,7 @@
     top: 27px;
     margin-right: 10px;
   }
-  
+
   .select {
     position: relative;
     left: 40px;
@@ -59,9 +59,8 @@
     line-height: 19px;
     color: rgba(255, 255, 255, 0.7);
   }
-  
+
   .loop {
     position: relative;
     left: -40px;
   }
-  
