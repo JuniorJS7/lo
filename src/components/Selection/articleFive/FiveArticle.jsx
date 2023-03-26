@@ -12,12 +12,12 @@ const FiveArticle =()=> {
           }else{
             setCureent(current+1)
           }
-          
-        
+
+
         },3000)
         return ()=>clearTimeout(timer)
          },[current])
-    
+
     const getoNext=(current)=>{
         setCureent(current)
     }
@@ -25,7 +25,7 @@ const FiveArticle =()=> {
     <div className='blockSlide'>
         <div className='list'>
         <div className='imgFile'>
-         <img src={Group} alt="" />
+         <img className='imgFile' src={Group} alt="" />
         </div>
         <div className='listfile'>
             <h2 className='bodyText'>{imageSilede[current].title}</h2>
@@ -39,9 +39,9 @@ const FiveArticle =()=> {
             }
         </div>
         </div>
-      
+
         </div>
-       
+
     </div>
   )
 }

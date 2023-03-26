@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   width: 461.39px;
   height: 450px;
-  bottom: 27%;
+  bottom: 30%;
   left: 36%;
   position: absolute;
 }
@@ -58,3 +58,63 @@
    top: 665px;
    z-index: 1;
 }
+
+
+.artTree__container{
+
+}
+.artTree__title{
+font-family: 'Raleway';
+font-weight: 500;
+font-size: 36px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #B31217;
+margin:0px 0px 0px 100px;
+}
+.artTree__list{
+  display: flex;
+}
+.artTree__item{
+  display: flex;
+  flex-direction: column;
+ }
+ .artTree__item_1{
+  padding:40px 0px 0px 170px;
+  justify-content: flex-start;
+}
+.artTree__item_2{
+  display: flex;
+  justify-content: flex-end;
+  margin:550px 0px 0px -350px;
+
+}
+.artTree__item_3{
+  display: flex;
+  justify-content: flex-end;
+  margin:0px -430px 0px 450px;
+
+}
+.artTree__item_4{
+  margin:45px 150px 0px 0px;
+
+}
+
+.artTree__subtitle{
+font-family: 'Raleway';
+font-weight: 500;
+font-size: 42px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.artTree__descr{
+font-family: 'Raleway';
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+color: rgba(255, 255, 255, 0.7);
+padding-top: 15px;
+}
+
+

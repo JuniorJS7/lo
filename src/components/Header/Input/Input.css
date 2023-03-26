@@ -9,3 +9,19 @@ input {
   border-radius: 26px;
   padding: 9px 45px 9px 10px;
 }
+@media(max-width:1460px){
+  input{
+    width: 200px;
+  }
+}
+@media(max-width:830px){
+  input{
+    width: 150px;
+  }
+}
+
+@media(max-width:690px){
+  input{
+   display: none;
+  }
+}
