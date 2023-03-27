@@ -1,5 +1,6 @@
 .NavItemsDiv {
   line-height: 44px;
+  color: #ffffff;
 }
 
 ul {
@@ -10,6 +11,13 @@ ul li {
   list-style-type: none;
   margin-left: 40px;
 }
+@media(max-width:1220.98px){
+  ul li {
+    display: none;
+
+  }
+}
+
 
 ul li:first-child {
   margin-left: 0;

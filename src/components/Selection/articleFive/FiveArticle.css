@@ -5,14 +5,14 @@ background: #222222;
 }
 .list{
     display: flex;
-    
+
 }
 
-img{
+.imgFile{
     padding:90px 90px;
     width: 420px;
     height: 420px;
-    
+
 }
 .bodyText{
     padding-top: 90px;
@@ -56,14 +56,14 @@ img{
 @media(max-width:605px){
     .blockSlide{
         max-width: 605px;
-        
+
     }
-    img{
+    .imgFile{
     display: none;
     }
     .bodyText{
             padding-top: 9px;;
-        
+
     }
     .carousel-boultt{
         display: none;
@@ -73,14 +73,14 @@ img{
 @media(max-width:404){
     .blockSlide{
         max-width: 404px;
-        
+
     }
 }
 @media(max-width:404px){
     .blockSlide{
         max-width: 404px;
-        
-        
+
+
     }
     .bodyText{
         overflow-wrap: break-word;

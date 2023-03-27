@@ -3,9 +3,10 @@ import './navBar.css'
 import Logo from "../Logo/Logo";
 import Input from "../Input/Input";
 import NavItems from "../NavItems/NavItems";
-import photo from "../Images/cart_icon-icons.com_48341.ico";
-import photo1 from "../Images/earth_icon_155458.ico";
-import photo2 from "../Images/1486349556-loupe_80493.ico";
+import photo from "../Images/basket.svg";
+import photo1 from "../Images/oval.svg";
+import photo2 from "../Images/loop.svg";
+import man from "../Images/man.svg";
 // import SelectMenu from '../SelectMenu/SelectMenu';
 import "../NavBar/navBar.css";
 
@@ -35,12 +36,18 @@ export default function NavBar() {
             <option value="">US</option>
           </select>
         </div>
+      <div className='group'>
+        <div><img className='man' src={man} alt="" /></div>
+      <div className="burger">
+        <span className='span'></span>
+      </div>
+      </div>
       </div>
     </div>
     </div>
     <ClickMod active={modalActive} setActive={setModalActive}/>
     </>
- 
-    
+
+
   )
 }
