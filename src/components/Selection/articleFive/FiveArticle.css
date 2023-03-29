@@ -46,44 +46,35 @@ background: #222222;
     cursor: pointer;
     box-shadow: 3px 2px 2px rgba(245, 241, 241, 0.945);
 }
-@media(max-width=950px){
-    .Fintext{
-        width: 550px;
-        height: 35px;
-        background-repeat: repeat;
-    }
-}
-@media(max-width:605px){
+@media(max-width:850px){
     .blockSlide{
-        max-width: 605px;
-
+        width: 100%;
     }
     .imgFile{
-    display: none;
+        padding:45px 45px;
+        width: 210px;
+        height: 210px;
+    
     }
     .bodyText{
-            padding-top: 9px;;
-
+    font-size: 16px;
+    font-weight: 200;
     }
-    .carousel-boultt{
-        display: none;
+    .titleHtext{
+    font-weight: 200;
+    font-size: 20px;
     }
-
+    .carousel-boultt span{
+        width: 22.5px;
+    }
+    .Fintext{
+    font-size: 20px;
+    }
 }
-@media(max-width:404){
-    .blockSlide{
-        max-width: 404px;
+@media(max-width:480px){
+    .imgFile{
+        padding:5px 5px;
+        
 
-    }
-}
-@media(max-width:404px){
-    .blockSlide{
-        max-width: 404px;
-
-
-    }
-    .bodyText{
-        overflow-wrap: break-word;
-        word-wrap: break-word;
     }
 }
