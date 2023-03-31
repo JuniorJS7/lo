@@ -74,3 +74,36 @@
 .footer__item-img {
    margin: 0 10px 0 0;
 }
+@media(max-width:850px){
+   .footer{
+      max-width: 100%;
+   }
+   .logos {
+      width: 125px;
+   }
+   .footer__item-link{
+      font-weight: 250;
+      font-size: 9px;
+   }
+   .footer__item-block{
+      width: 112.5px;
+   }
+   .footer__item-tell{
+   font-weight: 250;
+   font-size: 9px;
+   }
+   .footer__item-text{
+   font-weight: 250;
+   font-size: 9px;
+   }
+
+}
+@media(max-width:480px){
+   .footer{
+      height: 200px;
+   }
+   .footer__list{
+      padding: 55px 50px 22.5px 50px;
+   }
+
+}
