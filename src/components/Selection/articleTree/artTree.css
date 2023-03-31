@@ -1,120 +1,108 @@
 .artTree {
-  max-width: 100%;
-  background-color: #0e0e0eff;
-  height: 1000px;
-  position: relative;
+   max-width: 100%;
+   background-color: rgba(14, 14, 14);
+   height: 1000px;
+   position: relative;
 }
 
 .artTreeImg {
-  background-image: url("../articleTree/img/brannor_rotors_front_3-800x800-PhotoRoom\ 2.png");
-  background-repeat: no-repeat;
-  width: 461.39px;
-  height: 450px;
-  bottom: 30%;
-  left: 36%;
-  position: absolute;
+   background-image: url('../articleTree/img/brannorrotors.png');
+   background-repeat: no-repeat;
+   width: 462px;
+   height: 450px;
+   bottom: 30%;
+   left: 36%;
+   position: absolute;
 }
 
 .top-left {
-  background-image: url("../articleTree/img/left-top.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 215px;
-  height: 200px;
-  left: 380.72px;
-  top: 383px;
-  z-index: 1;
-}
-
-.bottom-left {
-   background-image: url("../articleTree/img/left-bottom.png");
+   background-image: url('../articleTree/img/left-top.png');
    background-repeat: no-repeat;
    position: absolute;
    width: 215px;
    height: 200px;
-   left: 611.72px;
+   left: 380px;
+   top: 383px;
+   z-index: 1;
+}
+
+.bottom-left {
+   background-image: url('../articleTree/img/left-bottom.png');
+   background-repeat: no-repeat;
+   position: absolute;
+   width: 215px;
+   height: 200px;
+   left: 610px;
    top: 576px;
    z-index: 1;
 }
 
 .top-right {
-   background-image: url("../articleTree/img/right-top.png");
+   background-image: url('../articleTree/img/right-top.png');
    background-repeat: no-repeat;
    position: absolute;
    width: 215px;
    height: 200px;
-   right: 426.72px;
+   right: 426px;
    top: 378px;
    z-index: 1;
 }
 
 .bottom-right {
-   background-image: url("../articleTree/img/right-bottom.png");
+   background-image: url('../articleTree/img/right-bottom.png');
    background-repeat: no-repeat;
    position: absolute;
    width: 220px;
    height: 208px;
-   right: 524.72px;
+   right: 524px;
    top: 665px;
    z-index: 1;
 }
 
-
-.artTree__container{
-
+.artTree__title {
+   font-family: 'Raleway';
+   font-weight: 500;
+   font-size: 36px;
+   letter-spacing: 0.02em;
+   color: rgba(179, 18, 23);
+   margin: 0px 0px 0px 100px;
 }
-.artTree__title{
-font-family: 'Raleway';
-font-weight: 500;
-font-size: 36px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #B31217;
-margin:0px 0px 0px 100px;
+.artTree__list {
+   display: flex;
 }
-.artTree__list{
-  display: flex;
+.artTree__item {
+   display: flex;
+   flex-direction: column;
 }
-.artTree__item{
-  display: flex;
-  flex-direction: column;
- }
- .artTree__item_1{
-  padding:40px 0px 0px 170px;
-  justify-content: flex-start;
+.artTree__item_1 {
+   padding: 40px 0px 0px 170px;
+   justify-content: flex-start;
 }
-.artTree__item_2{
-  display: flex;
-  justify-content: flex-end;
-  margin:550px 0px 0px -350px;
-
+.artTree__item_2 {
+   display: flex;
+   justify-content: flex-end;
+   margin: 550px 0px 0px -350px;
 }
-.artTree__item_3{
-  display: flex;
-  justify-content: flex-end;
-  margin:0px -430px 0px 450px;
-
+.artTree__item_3 {
+   display: flex;
+   justify-content: flex-end;
+   margin: 0px -430px 0px 450px;
 }
-.artTree__item_4{
-  margin:45px 150px 0px 0px;
-
+.artTree__item_4 {
+   margin: 45px 150px 0px 0px;
 }
 
-.artTree__subtitle{
-font-family: 'Raleway';
-font-weight: 500;
-font-size: 42px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+.artTree__subtitle {
+   font-family: 'Raleway';
+   font-weight: 500;
+   font-size: 42px;
+   letter-spacing: 0.02em;
+   color: rgba(247, 255, 255);
 }
-.artTree__descr{
-font-family: 'Raleway';
-font-weight: 500;
-font-size: 18px;
-line-height: 120%;
-color: rgba(255, 255, 255, 0.7);
-padding-top: 15px;
+.artTree__descr {
+   font-family: 'Raleway';
+   font-weight: 500;
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.7);
+   padding-top: 15px;
 }
-
-

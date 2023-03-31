@@ -11,7 +11,7 @@ function Li(props) {
 
 function NavItems() {
   return (
-    <div className="NavItemsDiv">
+    <div className="navItemsDiv">
       <ul>
         <Li value="Компания" />
         <Li value="Продукция" />

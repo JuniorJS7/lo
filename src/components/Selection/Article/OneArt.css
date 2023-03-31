@@ -1,63 +1,63 @@
-.OneArt {
-   background: #222222;
-   padding:300px 0px;
+.oneArt {
+   background: rgba(14, 14, 14);
+   padding: 300px 0px;
 }
-@media(max-width:790px){
-  .OneArt {
-    padding-bottom: 0;
-  }
-}
-
-.OneArt__container {
-  max-width: 1400px;
-  margin:0px auto;
-  padding:0px 15px;
-  display: flex;
+@media (max-width: 790px) {
+   .oneArt {
+      padding-bottom: 0;
+   }
 }
 
-@media(max-width:790px){
-  .OneArt__container {
-    flex-direction: column;
-  }
-}
-@media(max-width:790px){
-.OneArt__content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-}
-.OneArt__img{
-  flex: 0 0 50%;
-
+.oneArt__container {
+   max-width: 1400px;
+   margin: 0px auto;
+   padding: 0px 40px;
+   display: flex;
 }
 
-.OneArt__img img{
-  height: 100%;
-  width: 100%;
+@media (max-width: 790px) {
+   .oneArt__container {
+      flex-direction: column;
+      padding: 0px 30px;
+   }
 }
-.OneArt__title {
+@media (max-width: 790px) {
+   .oneArt__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}
+.oneArt__img {
+   flex: 0 0 50%;
+}
+
+.oneArt__img img {
+   height: 100%;
+   width: 100%;
+}
+.oneArt__title {
    font-family: 'Gamestation';
    font-weight: 400;
-   font-size:79px;
+   font-size: 79px;
    line-height: 100%;
    text-align: left;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: white;
-   margin:0px;
+   color: rgba(247, 255, 255);
+   margin: 0px;
    margin-bottom: 50px;
 }
 
-@media(max-width:1600px){
-  .OneArt__title{
-    font-size: calc(29px + (79 - 29) * ((100vw - 320px) / (1600 - 320)));
-  }
+@media (max-width: 1600px) {
+   .oneArt__title {
+      font-size: calc(29px + (79 - 29) * ((100vw - 320px) / (1600 - 320)));
+   }
 }
-.OneArt__title span {
-   color: #f52626ff;
+.oneArt__title span {
+   color: rgba(229, 45, 39);
 }
-.OneArt__descr {
+.oneArt__descr {
    max-width: 518px;
    font-family: 'Inter';
    font-weight: 400;
@@ -69,7 +69,7 @@
    margin-bottom: 35px;
 }
 
-.OneArt__button {
+.oneArt__button {
    padding: 10px;
    border-radius: 15px;
    font-family: 'Inter';
@@ -77,8 +77,13 @@
    font-size: 16px;
    line-height: 19px;
    text-transform: uppercase;
-   color: white;
-   border: 1px solid #f52626;
-   background-color: #f52626;
+   color: rgba(247, 255, 255);
+   border: 1px solid rgba(229, 45, 39);
+   background-color: rgba(229, 45, 39);
    cursor: pointer;
+}
+@media (max-width: 790px) {
+   .oneArt__button {
+      margin-bottom: 50px;
+   }
 }

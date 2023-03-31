@@ -1,112 +1,109 @@
-.Modal{
-height: 100vh;
-width: 100vw;
-background-color: rgba(18, 18, 18, 0.7);
-position: fixed;
-top: 0;
-left: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-opacity: 0;
-pointer-events: none;
-transition: 0.5s;
-z-index: 1;
+.modal {
+   height: 100vh;
+   width: 100vw;
+   background-color: rgba(18, 18, 18, 0.7);
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   pointer-events: none;
+   transition: 0.5s;
+   z-index: 1;
 }
-.Modal.active{
-    opacity: 1;
-    pointer-events: all;
-
+.modal.active {
+   opacity: 1;
+   pointer-events: all;
 }
-.Modal__content{
-   background-color: #232122;
-   border: solid 1px #E52D27;
+.modal__content {
+   background-color: rgba(18, 18, 18, 0.7);
+   border: solid 1px rgba(229, 45, 39);
    width: 777px;
    height: 467px;
    transform: scale(0.5);
    border-radius: 20px;
 }
-.Modal__content.active{
-    transform: scale(1)
+.modal__content.active {
+   transform: scale(1);
 }
 
-.btn__X{
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 28px;
-    padding-top: 10px;
-    color: #ffffff;
-    cursor: pointer;
+.btn__x {
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 28px;
+   padding-top: 10px;
+   color: rgba(247, 255, 255);
+   cursor: pointer;
 }
-.p__reg{
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    font-size: 28px;
+.p__reg {
+   color: rgba(247, 255, 255);
+   display: flex;
+   justify-content: center;
+   font-size: 28px;
 }
-.input_Num{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.input_num {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
-.Input_t{
-    font-size: 16px;
-    color: #ffffff;
+.input_t {
+   font-size: 16px;
+   color: rgba(247, 255, 255);
 }
-.My__input{
-border: 1px solid #ffffff;
-border-radius: 7px;
-width: 355px;
+.my__input {
+   border: 1px solid rgba(247, 255, 255);
+   border-radius: 7px;
+   width: 355px;
 }
-.sms__butt{
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sms__butt {
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
-.kode__butt{
-    width: 350px;
-    height: 40px;
-    border-radius: 34px;
-    background-color: #FFFFFF;
-
+.kode__butt {
+   width: 350px;
+   height: 40px;
+   border-radius: 34px;
+   background-color: rgba(247, 255, 255);
 }
-.kode__butt:hover{
-    background-color: #E52D27;
+.kode__butt:hover {
+   background-color: rgba(229, 45, 39);
 }
-.p__sms{
-    font-size: 12px;
-    width: 300px;
-    height: 30px;
-    color: #FFFFFF;
+.p__sms {
+   font-size: 12px;
+   width: 300px;
+   height: 30px;
+   color: rgba(247, 255, 255);
 }
-.butt_psw{
-    width: 350px;
-    height: 40px;
-    border-radius: 34px;
-    background-color: #232122;
-    border: solid 0.1px #E52D27;
-    color: #FFFFFF;
+.butt_psw {
+   width: 350px;
+   height: 40px;
+   border-radius: 34px;
+   background-color: rgba(18, 18, 18, 0.7);
+   border: solid 0.1px rgba(229, 45, 39);
+   color: rgba(247, 255, 255);
 }
-.butt_psw:hover{
-    background-color: #E52D27;
+.butt_psw:hover {
+   background-color: rgba(229, 45, 39);
 }
-@media (max-width:375px) {
-    .Modal__content.active{
-        width: 290px;
-    }
-    .My__input{
-        width: 170px;
-    }
-    .kode__butt{
-        width: 170px;
-    }
-    .butt_psw{
-        width: 170px;
-    }
-    .p__sms{
-        width: 170px;
-    }
-
+@media (max-width: 375px) {
+   .modal__content.active {
+      width: 290px;
+   }
+   .my__input {
+      width: 170px;
+   }
+   .kode__butt {
+      width: 170px;
+   }
+   .butt_psw {
+      width: 170px;
+   }
+   .p__sms {
+      width: 170px;
+   }
 }

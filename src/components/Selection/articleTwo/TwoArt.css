@@ -1,70 +1,93 @@
-.Secondcont {
-  background-color: #0e0e0eff;
-  width: 100%;
+.secondcont {
+   background-color: rgba(14, 14, 14, 1);
+   width: 100%;
+   padding: 0px 0px 100px 0px;
+}
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 15px;
 }
 
 .text-cont {
-  width: 50%;
-  text-align: left;
-  margin-top: 80px;
+   max-width: 700px;
+   margin-left: 80px;
 }
 
 .text-cont button {
-  background-color: transparent;
-  border: 1px solid #e52d27;
-  color: white;
-  border-radius: 43px;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 10px 19px;
-  margin: 10px;
+   background-color: transparent;
+   border: 1px solid rgba(229, 45, 39);
+   color: rgba(247, 255, 255);
+   border-radius: 43px;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 10px 20px;
+   margin: 10px;
 }
 
 .text-cont-title {
-  font-family: "Gamestation";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  background: linear-gradient(90deg, #e52d27 0%, #b31217 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+   font-family: 'Gamestation';
+   font-weight: 400;
+   font-size: 32px;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   background: linear-gradient(
+      90deg,
+      rgba(229, 45, 39) 0%,
+      rgba(179, 18, 23) 100%
+   );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
 }
 
 .text-cont-p {
-  font-family: "Gamestation";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 42px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #ffffff;
+   font-family: 'Gamestation';
+   font-weight: 400;
+   font-size: 42px;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   color: rgba(247, 255, 255);
 }
 
-.photo-cont {
-  background-image: url("../articleTwo/img/Group\ 8.png");
-  background-repeat: no-repeat;
-  height: 659.86px;
-  width: 40%;
+.photo-cont img {
+   width: 100%;
+   height: 100%;
 }
 
-.red-cont {
-  background-image: url("../articleTwo/img/red.png");
-  background-repeat: no-repeat;
-  width: 242px;
-  height: 242px;
-  left: 680px;
-  top: 1115px;
-  position: absolute;
-  background: #f52626;
-  filter: blur(275px);
+@media (max-width: 1200px) {
+   .red-cont {
+      display: none;
+   }
 }
 
-.flex {
-  display: flex;
-  justify-content: space-evenly;
+@media (max-width: 1200px) {
+   .text-cont-p {
+      font-size: calc(17px + (32 - 17) * ((100vw - 320px) / (1660 - 320)));
+   }
+}
+@media (max-width: 890px) {
+   .secondcont {
+      display: flex;
+      align-items: center;
+   }
+
+   .photo-cont {
+      width: 100%;
+   }
+   .flex {
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 790px) {
+   .text-cont {
+      margin-left: 10px;
+   }
+   .text-cont button {
+      text-align: left;
+      padding: 8px 15px;
+   }
 }

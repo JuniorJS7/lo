@@ -1,18 +1,20 @@
 .footer {
-   height: 400px;
-   border: 1px solid;
-   background-color: #0e0e0e;
+   height: 100%;
+   border: 1px solid rgba(14, 14, 14);
+   background-color: rgba(14, 14, 14);
 }
 
-
-.footer__item-link {
+.footer__item {
    display: flex;
    flex-direction: column;
+}
+.footer__item-link {
+   font-family: 'Raleway';
    font-weight: 500;
    font-size: 18px;
    color: rgba(255, 255, 255, 0.7);
    text-decoration: none;
-   padding-top: 10px;
+   margin-bottom: 10px;
 }
 
 .footer__copyRight {
@@ -21,9 +23,9 @@
    font-size: 14px;
    line-height: 16px;
    color: rgba(255, 255, 255, 0.7);
-   padding-left: 100px;
+   padding: 0px 0px 50px 100px;
 }
-.logos {
+.footer__logo {
    width: 250px;
    height: 37.84px;
 }
@@ -31,13 +33,24 @@
 .footer__list {
    display: flex;
    justify-content: space-between;
-   padding: 110px 100px 45px 100px;
+   padding: 100px 100px 45px 100px;
    align-items: center;
 }
-
+@media (max-width: 1160px) {
+   .footer__list {
+      flex-direction: column;
+      display: flex;
+      align-items: flex-start;
+      padding: 40px 60px 45px 30px;
+   }
+   .footer__item {
+      margin: 20px 0px 20px 0px;
+   }
+   .footer__copyRight {
+      padding: 0px 0px 50px 30px;
+   }
+}
 .footer__item-block {
-   padding: 0px 50px;
-   margin: 0px 20px;
    width: 225px;
 }
 
@@ -49,16 +62,15 @@
    font-weight: 500;
    font-size: 18px;
    line-height: 120%;
-   color: #ffffff;
-
+   color: rgba(247, 255, 255);
 }
 .footer__item-text {
    font-family: 'Raleway';
    font-weight: 500;
    font-size: 18px;
    line-height: 120%;
-   color: #ffffff;
+   color: rgba(247, 255, 255);
 }
 .footer__item-img {
-   margin: 0px 10px 0px 0px;
+   margin: 0 10px 0 0;
 }
