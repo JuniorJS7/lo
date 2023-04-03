@@ -4,7 +4,7 @@ import '../Logo/Logo.css'
 function Logo() {
     return (
         <div >
-            <h1 className='logo'>Brandoor</h1>
+            <div className='logo'>Brandoor</div>
         </div>
     );
 }

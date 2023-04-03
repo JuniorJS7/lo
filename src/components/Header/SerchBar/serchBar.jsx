@@ -3,7 +3,7 @@ import './serchBar.css'
 
 export default function SerchBar() {
   return (
-    <div className='MenuSerch'>
+    <div className='menuSerch'>
         <div className="selCont">
       <div className="selContCenter">
         <select className="first-select selectors">

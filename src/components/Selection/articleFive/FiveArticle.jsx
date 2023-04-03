@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './FiveArticle.css'
 import imageSilede from './data'
-import Group from './images/Group.svg'
+import group from './images/group.svg'
 
 const FiveArticle =()=> {
     const [current,setCureent]=useState(0)
@@ -25,12 +25,12 @@ const FiveArticle =()=> {
     <div className='blockSlide'>
         <div className='list'>
         <div className='imgFile'>
-         <img className='imgFile' src={Group} alt="" />
+         <img className='imgFile' src={group} alt="img" />
         </div>
         <div className='listfile'>
             <h2 className='bodyText'>{imageSilede[current].title}</h2>
             <p className='titleHtext'>{imageSilede[current].titleh}</p>
-            <p className='Fintext'>{imageSilede[current].body}</p>
+            <p className='fintext'>{imageSilede[current].body}</p>
             <div className='carousel-boultt'>
             {
                 imageSilede.map((imageSilede,current)=>(

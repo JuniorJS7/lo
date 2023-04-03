@@ -1,27 +1,27 @@
 input {
-  border-radius: 50px;
-  background-color: #232122;
-  border: 1px solid #868586ff;
-  position: relative;
-  top: 23px;
-  margin-left: 25px;
-  width: 407px;
-  border-radius: 26px;
-  padding: 9px 45px 9px 10px;
+   border-radius: 50px;
+   background-color: rgba(18, 18, 18, 0.7);
+   border: 1px solid rgba(117, 117, 117);
+   position: relative;
+   top: 23px;
+   margin-left: 25px;
+   width: 380px;
+   border-radius: 26px;
+   padding: 9px 45px 9px 10px;
 }
-@media(max-width:1460px){
-  input{
-    width: 200px;
-  }
+@media (max-width: 1460px) {
+   input {
+      width: 200px;
+   }
 }
-@media(max-width:830px){
-  input{
-    width: 150px;
-  }
+@media (max-width: 830px) {
+   input {
+      width: 150px;
+   }
 }
 
-@media(max-width:690px){
-  input{
-   display: none;
-  }
+@media (max-width: 690px) {
+   input {
+      display: none;
+   }
 }

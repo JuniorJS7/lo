@@ -19,16 +19,16 @@ export default function NavBar() {
   const [modalActive, setModalActive]=useState(false)
   return (
     <>
-     <div className='MenuNav'>
+     <div className='menuNav'>
     <div className="navBar">
       <div className="navWidth">
         <Logo />
         <Input />
-        <img src={photo2} alt="" className="loop" />
+        <img src={photo2} alt="img" className="loop" />
         <NavItems />
         <button className="btn" onClick={()=>setModalActive(true)}>Вход</button>
-        <img src={photo} alt="" />
-        <img src={photo1} alt="" />
+        <img src={photo} alt="img" />
+        <img src={photo1} alt="img" />
         <div>
           <select className="select" >
             <option value="">RU</option>
@@ -37,7 +37,7 @@ export default function NavBar() {
           </select>
         </div>
       <div className='group'>
-        <div><img className='man' src={man} alt="" /></div>
+        <div><img className='man' src={man} alt="img" /></div>
       <div className="burger">
         <span className='span'></span>
       </div>

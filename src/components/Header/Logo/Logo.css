@@ -1,3 +1,12 @@
 .logo {
-    color: red;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    padding-top: 10px;
 }
+@media(max-width:500px){
+    .logo {
+        font-size: calc(25px + (40 - 25) * ((100vw - 320px) / (1660 - 320)));
+        padding:25px 0px 0px 0px;
+    }
+}
+/* calc(min + (max - min) * ((100vw - 320px) / (wrap - 320))); */

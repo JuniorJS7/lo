@@ -2,7 +2,7 @@ import React from 'react'
 import './FooterFinish.css'
 import logos from './img/logos.svg';
 import phone from './img/phone.svg';
-import Group from './img/Group.svg';
+import group from './img/group.svg';
 
 
 export default function FooterFinish() {
@@ -12,34 +12,34 @@ export default function FooterFinish() {
         <div className="footer__list">
           <div className="footer__item">
             <div>
-              <img className='logos' src={logos} alt="" />
+              <img className='footer__logo' src={logos} alt="img" />
             </div>
            <div className='footer__item'>
-              <a className="footer__item-link" href='##'>Политика конфиденциальности</a>
-              <a className="footer__item-link" href='##'>Пользовательское соглашение</a>
-              <a className="footer__item-link"  href='##'>Согласие на обработку персональных данных</a>
+              <a className="footer__item-link" href='javascript:void(0);'>Политика конфиденциальности</a>
+              <a className="footer__item-link" href='javascript:void(0);'>Пользовательское соглашение</a>
+              <a className="footer__item-link"  href='javascript:void(0);'>Согласие на обработку персональных данных</a>
            </div>
           </div>
           <div className="footer__item">
-            <a className="footer__item-link" href="##">Контакты</a>
-            <a className="footer__item-link" href="##">Оплата</a>
-            <a className="footer__item-link" href="##">Доставка</a>
-            <a className="footer__item-link" href="##">Поддержка</a>
+            <a className="footer__item-link" href="javascript:void(0);">Контакты</a>
+            <a className="footer__item-link" href="javascript:void(0);">Оплата</a>
+            <a className="footer__item-link" href="javascript:void(0);">Доставка</a>
+            <a className="footer__item-link" href="javascript:void(0);">Поддержка</a>
           </div>
           <div className="footer__item">
-              <a className="footer__item-link" href="##">Гарантийные обязательства</a>
-            <a className="footer__item-link" href="##">Обслуживание</a>
-            <a className="footer__item-link" href="##">О нас</a>
-            <a className="footer__item-link" href="##">Обучение</a>
+              <a className="footer__item-link" href="javascript:void(0);">Гарантийные обязательства</a>
+            <a className="footer__item-link" href="javascript:void(0);">Обслуживание</a>
+            <a className="footer__item-link" href="javascript:void(0);">О нас</a>
+            <a className="footer__item-link" href="javascript:void(0);">Обучение</a>
           </div>
           <div className="footer__item">
             <div className='footer__item-block'>
               <div className='footer__item-box'>
-                <img className='footer__item-img' src={phone} alt=""/>
+                <img className='footer__item-img' src={phone} alt="img"/>
                 <a className='footer__item-tell' href="tel:+74951252300">+7495125-23-00</a>
               </div>
               <div className='footer__item-box'>
-                <img className='footer__item-img' src={Group} alt=""/>
+                <img className='footer__item-img' src={group} alt="img"/>
                 <p className='footer__item-text'>г.Москва, МКАД 32й км, строение 4</p>
               </div>
             </div>

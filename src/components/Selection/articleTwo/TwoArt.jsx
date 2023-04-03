@@ -1,10 +1,11 @@
 import React from "react";
 import "./TwoArt.css";
+import group from "./img/group.png";
 
 export default function TwoArt() {
   return (
     <div className="twoArt">
-      <div className="Secondcont">
+      <div className="secondcont">
         <div className="flex">
           <div className="text-cont">
             <span className="text-cont-title">Товары</span>
@@ -22,7 +23,9 @@ export default function TwoArt() {
               стабильные характеристики в широком диапазоне температур
             </button>
           </div>
-          <div className="photo-cont"></div>
+          <div className="photo-cont">
+            <img src={group} alt="img" />
+          </div>
           <div className="red-cont"></div>
         </div>
       </div>
