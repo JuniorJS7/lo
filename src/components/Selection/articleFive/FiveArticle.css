@@ -1,5 +1,6 @@
 .blockSlide {
-   max-width: 100%;
+   max-width: 1600px;
+   width:100%;
    height: 660px;
    background: rgba(14, 14, 14);
 }
@@ -9,7 +10,8 @@
 
 .imgFile {
    padding: 90px 90px;
-   width: 420px;
+   max-width: 420px;
+   width: 100%;
    height: 420px;
 }
 .bodyText {
@@ -34,6 +36,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 25px;
 }
 .carousel-boultt span {
    width: 45px;
@@ -44,38 +47,39 @@
    cursor: pointer;
    box-shadow: 3px 2px 2px rgba(245, 241, 241, 0.945);
 }
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
    .fintext {
       width: 550px;
       height: 35px;
       background-repeat: repeat;
    }
-}
-@media (max-width: 605px) {
-   .blockSlide {
-      max-width: 605px;
+   .carousel-boultt{
+      padding: 100px;
    }
-   .imgFile {
-      display: none;
+   .imgFile{
+      padding: 40px 40px;
+   }
+
+}
+@media (max-width: 720px) {
+   .imgFile{
+      padding: 0;
    }
    .bodyText {
-      padding-top: 9px;
+      padding: 0;
+      font-size: 20px;
+      
    }
-   .carousel-boultt {
-      display: none;
+   .titleHtext{
+      padding-top: 50px;
    }
+   .carousel-boultt{
+      padding-top: 200px;
+   }
+   
 }
-@media (max-width: 404px) {
-   .blockSlide {
-      max-width: 404px;
-   }
-}
-@media (max-width: 404px) {
-   .blockSlide {
-      max-width: 404px;
-   }
-   .bodyText {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
+@media (max-width: 480px){
+   .carousel-boultt{
+      padding-left: 5px;
    }
 }
