@@ -2,7 +2,7 @@ import React from 'react'
 import './FooterFinish.css'
 import logos from './img/logos.svg';
 import phone from './img/phone.svg';
-import group from './img/group.svg';
+import group from './img/Group.svg';
 
 
 export default function FooterFinish() {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './FiveArticle.css'
 import imageSilede from './data'
-import group from './images/group.svg'
+import Group from './images/group.svg'
 
 const FiveArticle =()=> {
     const [current,setCureent]=useState(0)
@@ -25,7 +25,7 @@ const FiveArticle =()=> {
     <div className='blockSlide'>
         <div className='list'>
         <div className='imgFile'>
-         <img className='imgFile' src={group} alt="img" />
+         <img className='imgFile' src={Group} alt="img" />
         </div>
         <div className='listfile'>
             <h2 className='bodyText'>{imageSilede[current].title}</h2>
